@@ -1,6 +1,6 @@
 function prime(n)
 {
-    i = parseint(n/2); // i = n-1;
+    i = parseInt(n/2); // i = n-1;
     if(n<=0)
     {
         console.log(`${n} is not an integer`);
@@ -25,8 +25,7 @@ function prime(n)
     //else
     //console.log(`number ${n} is not a prime`);
 }
-
-i,z;
-flag=1;
-n=127;
+let i,z;
+let flag=1;
+let n=127;
 prime(n);
